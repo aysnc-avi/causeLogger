@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.popup-container {
+  text-align: center;
+}
+
+.circle-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #00bfff, #004080);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 20px #00bfff;
+}
+
+.icon {
+  font-size: 48px;
+}
+
+.status {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.purpose {
+  color: #ccc;
+  font-size: 14px;
+}
+
+input,
+button {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  width: 90%;
+}
+
+button {
+  background: #00bfff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0099cc;
+}
